@@ -1,3 +1,5 @@
+![experiment result data chart](https://github.com/evanrinehart/theory1/blob/master/chart.png)
+
 Let's say you have these equations:
 
 ```
