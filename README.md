@@ -1,14 +1,20 @@
 Let's say you have these equations:
+
+```
 a = -x
 d/dt v = a
 d/dt x = v
+```
 
 x and v are state variables and their initial values are a free choice.
+
 Let's say x = 1 and v = 0 are the chosen starting state.
 
 According to Wolfram Alpha, the solution to these equations and these initial values is:
+```
 x(t) =  cos(t)
 v(t) = -sin(t)
+```
   which are a pair of sine waves 90 degrees out of phase with a period of 2 PI = 6.2831853
   
 We want an algorithm to take a state of 2 numbers and simulate their future behavior
