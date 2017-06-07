@@ -67,8 +67,8 @@ even output. In fact this is the guts of the algorithm:
   observable value would change. The formula for this is |crossOverPoint - x| / |xdot|.
 - Take the minimum of these two times, call it dt.
 - The next state of the simulation occurs dt time from now, with the values
-  x1 = x + xdot * dt
-  v1 = v + vdot * dt
+  - `x1 = x + xdot * dt`
+  - `v1 = v + vdot * dt`
 - repeat the process to get the next dt and the state variables at that time, and so on.
 - If ever the minimum ends up being "infinity", end the simulation. Nothing is
   expected to change anymore.
