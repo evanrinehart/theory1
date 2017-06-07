@@ -176,10 +176,10 @@ run 0.25 1 0
    9.458333333333334                 -1.0                0.125
 ```
 
-This simulation returned to a previously visited state after 6.347222222222222
-- 0.125 = 6.222222 2 PI = 6.2831853, so it appears that the simulation gets
-closer to what we expect if you reduce the granularity, which also increases
-the rate of time steps. That is awesome.
+This simulation returned to a previously visited state after
+6.347222222222222 - 0.125 = 6.222222. 2π = 6.2831853, so it appears that the
+simulation gets closer to what we expect if you reduce the granularity, which
+also increases the rate of time steps. That is awesome.
 
 We're not done being awesome yet. The run algorithm goes forward in time, but
 with some signs swapped around it could have gone back in time. The perfect
